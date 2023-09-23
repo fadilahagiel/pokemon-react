@@ -56,7 +56,7 @@ export default function HomePage() {
                     return <PokemonCard pokemon={pokemon} key={id}/>
                 })}
             </div>
-            <img className="home-background" width={700} src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png" alt="" />
+            {/* <img className="home-background" width={700} src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png" alt="" /> */}
         </section>
     )
 }
